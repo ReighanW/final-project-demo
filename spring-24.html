@@ -3,52 +3,44 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title> RUNWAY TREND REPORT HTML</title>
+    <title> RUNWAY TREND REPORT</title>
     <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Romanesco&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
     <div class="header-content">
         <div class="Moodboard- content">
-            <img src="/" alt="Moodboard for my blog" />
+            <img src="" alt="" />
             <h1 class="site-title">FABRIC FINESSE</h1>
+
         </div>
-    </div class="spotlight-text" div>
-    <div>
-
+        <nav class="nav-container white">
+            <a href="index.html">Home</a>
+            <a href="spring-24.html">Spring'24</a>
+            <a href="summer-24.html">Summer'24</a>
+            <a href="contact.html">Contact</a>
+        </nav>
     </div>
-    <nav class="nav-container">
-        <a href="index.html">Home</a>
-        <a href="spring-24.html">Spring'24</a>
-        <a href="summer-24.html">Summer '24</a>
-        <a href="contact.html">Contact</a>
-        <a href=""></a>
-    </nav>
 
-    <body text="white" <h2>Fabric manipulation is an exciting and creative way for designers to add dimension and
+    <body text="black">Fabric manipulation is an exciting and creative way for designers to add dimension and
         artistic flair to their creations. It allows for unique and expressive designs that stand out in the world of
         fashion. This trend provides opportunities for both intricate handwork and modern technology-driven techniques,
         offering a wide range of possibilities for innovative clothing designs.</h2>
-        </div>
+
+
 
         <div class="page-content">
             <div class="images-box">
-
-<!-- STEPS 1. make sure you have the images-box around all images, step 2. add the additional div AND overlay div around each image. Call that div class="image-box" -->
- <!-- Step 3.  -->
-
-
-
-
-
 
                 <div class="image-box">
                     <div>
                         <img class="image" src="images/Unknown-1.jpeg" />
                     </div>
                     <div class="overlay">
-                        <span>Label here</span>
+                        <span>Derek Lam</span>
                     </div>
                 </div>
 
@@ -57,28 +49,17 @@
                         <img class="image" src="images/Unknown-2.jpeg" />
                     </div>
                     <div class="overlay">
-                        <span>Label here</span>
+                        <span>Balmain Paris</span>
                     </div>
 
                 </div>
-
-                <div class="image-box">
-                    <div>
-                        <img class="image" src="images/images.jpeg" />
-                    </div>
-                    <div class="overlay">
-                        <span>Label here</span>
-                    </div>
-                </div>
-
 
                 <div class="image-box">
                     <div>
                         <img class="image" src="images/Unknown-3.jpeg" />
                     </div>
-
                     <div class="overlay">
-                        <span>Label here</span>
+                        <span>Chloe</span>
                     </div>
                 </div>
 
@@ -89,9 +70,10 @@
                     </div>
 
                     <div class="overlay">
-                        <span>Label here</span>
+                        <span>Maison Margeila</span>
                     </div>
                 </div>
+
 
                 <div class="image-box">
                     <div>
@@ -99,7 +81,7 @@
                     </div>
 
                     <div class="overlay">
-                        <span>Label here</span>
+                        <span>Rick Owens</span>
                     </div>
                 </div>
 
@@ -109,11 +91,9 @@
                     </div>
 
                     <div class="overlay">
-                        <span>Label here</span>
+                        <span>Moschino</span>
                     </div>
-
                 </div>
-
 
                 <div class="image-box">
                     <div>
@@ -121,20 +101,11 @@
                     </div>
 
                     <div class="overlay">
-                        <span>Label here</span>
+                        <span>Jill Sanders</span>
                     </div>
+
                 </div>
 
-
-                <div class="image-box">
-                    <div>
-                        <img class="image" src="images/Unknown.jpeg" />
-                    </div>
-
-                    <div class="overlay">
-                        <span>Label here</span>
-                    </div>
-                </div>
 
                 <div class="image-box">
                     <div>
@@ -142,7 +113,28 @@
                     </div>
 
                     <div class="overlay">
-                        <span>Label here</span>
+                        <span>Stella Jean</span>
+                    </div>
+                </div>
+
+
+                <div class="image-box">
+                    <div>
+                        <img class="image" src="images/Unknown7.jpeg" />
+                    </div>
+
+                    <div class="overlay">
+                        <span>Akaaro</span>
+                    </div>
+                </div>
+
+                <div class="image-box">
+                    <div>
+                        <img class="image" src="images/Unknown.jpeg" />
+                    </div>
+
+                    <div class="overlay">
+                        <span>Vaishalis</span>
                     </div>
                 </div>
 
@@ -154,7 +146,6 @@
 
         </div>
 
-
         <!-- UNCOMMENT LATER IF YOU NEED IT BY PRESSING COMMAND + / -->
         <!-- <div class="footer-content">
 
@@ -165,67 +156,76 @@
 
     <style>
 
+        .h1{
+         font-family: "Romanseco,cursive";   
+         font-weight: 400;
+         font-style: normal;
+        }
         .images-box {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
             grid-template-rows: 1fr 1fr;
             gap: 10px;
-
         }
 
-        /* take everything from here */
 
-        .image-box{
+        .image-box {
             position: relative;
         }
-        .image-box div{
+
+        .image-box div {
             width: 100%;
-            height:100%;
+            height: 100%;
         }
 
         .overlay {
             position: absolute;
             top: 0;
             width: 100%;
-            height:100%;
+            height: 100%;
             text-align: center;
             background-color: white;
             display: table;
             opacity: 0;
         }
 
-        .overlay span{
+        .overlay span {
             opacity: 1;
             color: black;
             position: relative;
-            display:table-cell;
-            vertical-align:middle;
+            display: table-cell;
+            vertical-align: middle;
 
         }
 
-        .image{
+        .image {
             width: 100%;
             height: 100%;
         }
 
 
-        .image-box:hover .overlay{
-            vertical-align:middle;
+        .image-box:hover .overlay {
+            vertical-align: middle;
             opacity: .7;
         }
 
 
-        .image-box:hover .overlay span{
+        .image-box:hover .overlay span {
             opacity: 1;
             color: black;
             position: relative;
-            display:table-cell;
-            vertical-align:middle;
+            display: table-cell;
+            vertical-align: middle;
         }
 
-        /* to here */
 
-        
+        .image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+
+
+        }
 
         nav {
             height: 80px;
@@ -233,16 +233,29 @@
             justify-content: space-between;
             align-items: center;
             padding: 0rem;
+            color: white;
         }
 
         nav a:hover {
-            color: white
+            color: white;
+            background-color: black;
+
+        }
+
+        body {
+            font-style: italic;
+            background-color: lightskyblue;
+            font-family:"Tomanseco, cursive" ;
         }
 
 
-        body {
-            background-color: violet;
-            font-style: italic;
+        @media (max-width: 600px) {
+            .images-box {
+                grid-template-columns: 1fr 1fr;
+                /* Two columns for mobile */
+                grid-template-rows: repeat(5, 1fr);
+                /* Five rows for mobile */
+            }
         }
     </style>
 
